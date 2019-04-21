@@ -1,0 +1,46 @@
+.blue {
+background: rgb(124, 124, 179);
+}
+    
+.red {
+background: rgb(177, 134, 134);
+}
+
+.green {
+    background: rgb(140, 167, 140);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+   z-index: 1;
+}
+
+.test1 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    height: 0px; 
+    width: 0px;
+    transition: 4s;
+    z-index: -5;
+}
+
+.animation {
+    height: 200px; 
+    width: 200px;
+    padding: 5px;
+    transform: translate(200px, 150px) rotate(180deg);
+    transition: 4s;
+    background-color: green;
+    z-index: -5;
+}
+
+#animation {
+    background-image: url(img/texture_661_by_sirius_sdz-d8eyg27.jpg);
+    background-size: cover;
+}
+
+#animation2 {
+    background-image: url(img/texture_711_by_sirius_sdz-d9cq0my.jpg);
+    background-size: cover;
+}
