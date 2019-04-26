@@ -1,0 +1,18 @@
+button::after {
+    content: " hey I am after";
+    font-weight: bold;
+    color: red;
+    /* position: absolute;
+    bottom: 100%;
+    white-space: nowrap; */
+}
+
+button::before {
+    content: "Hi I am before!! ";
+    color: green;
+}
+
+button {
+    margin: 200px;
+    position: relative;
+}
